@@ -8,7 +8,7 @@ Table of Contents
 
 General
 -------
-Hardly Gladiators is a fighting game made in Unreal Engine 4 with a low poly artstyle.
+Ahistorical gladiator brawling simulator with a low poly artstyle, and some comedy sprinkled on top.
 
 License
 -------
