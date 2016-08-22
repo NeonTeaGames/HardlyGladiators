@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+﻿// Copyright (C) 2016  Jens Pitkanen & Aleksi Talarmo
 
 #pragma once
 
@@ -11,9 +11,5 @@
 UCLASS()
 class HARDLYGLADIATORS_API AHardlyGladiatorsGameMode : public AGameMode
 {
-	GENERATED_BODY()
-	
-	
-	
-	
+    GENERATED_BODY()
 };

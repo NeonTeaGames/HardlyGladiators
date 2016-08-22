@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+﻿// Copyright (C) 2016  Jens Pitkanen & Aleksi Talarmo
 
 #include "HardlyGladiators.h"
 
