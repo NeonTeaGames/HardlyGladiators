@@ -14,6 +14,8 @@ class HARDLYGLADIATORS_API AHGPlayerController : public APlayerController
 	GENERATED_BODY()
 	
 public:
+    virtual void SetupInputComponent() override;
+
     UFUNCTION(BlueprintCallable, Category="Movement Input")
     void MoveForward(float AxisValue);
     UFUNCTION(BlueprintCallable, Category="Movement Input")

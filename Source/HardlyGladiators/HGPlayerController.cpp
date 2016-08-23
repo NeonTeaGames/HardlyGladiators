@@ -3,6 +3,14 @@
 #include "HardlyGladiators.h"
 #include "HGPlayerController.h"
 
+void AHGPlayerController::SetupInputComponent() {
+    Super::SetupInputComponent();
+    InputComponent->BindAxis("Move Forward", this, &AHGPlayerController::MoveForward);
+    InputComponent->BindAxis("Move Right", this, &AHGPlayerController::MoveRight);
+    InputComponent->BindAxis("Look Up", this, &AHGPlayerController::LookUp);
+    InputComponent->BindAxis("Look Right", this, &AHGPlayerController::LookRight);
+}
+
 void AHGPlayerController::MoveForward(float AxisValue) {
     FVector ForwardVector = this->GetActorForwardVector();
     ForwardVector.Z = 0;
