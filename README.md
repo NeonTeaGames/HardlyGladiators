@@ -4,14 +4,20 @@ Hardly Gladiators
 Table of Contents
 -----------------
 * [General](#general)
+* [Credits](#credits)
 * [License](#license)
 
 General
 -------
 Ahistorical gladiator brawling simulator with a low poly artstyle, and some comedy sprinkled on top.
 
+Credits
+-------
+* Flame and smoke textures are from [Textures.com](https://textures.com)
+* Wood texture by [JCW](http://opengameart.org/content/wood-texture-tiles)
+
 License
 -------
-Hardly Gladiators is licensed under the [CC-BY-NC-SA 4.0 International][ccbyncsa] license. Basically, (**this is not legal advice**) you can mod the game and release your own derivative version of it, provided that you give credit (BY), don't charge for it (NC), and release it under the same license (SA).
+Hardly Gladiators is licensed under the [CC-BY-SA 4.0 International][ccbysa] license. Basically, (**this is not legal advice**) you can mod the game and release your own derivative version of it, provided that you give credit (BY) and release it under the same license (SA).
 
-[ccbyncsa]: https://creativecommons.org/licenses/by-nc-sa/4.0/
+[ccbysa]: https://creativecommons.org/licenses/by-sa/4.0/
