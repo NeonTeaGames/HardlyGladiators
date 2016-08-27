@@ -15,6 +15,7 @@ Credits
 -------
 * Flame and smoke textures are from [Textures.com](https://textures.com)
 * Wood texture by [JCW](http://opengameart.org/content/wood-texture-tiles)
+* Stone brick texture by [Spiney](http://opengameart.org/node/12117)
 
 License
 -------
