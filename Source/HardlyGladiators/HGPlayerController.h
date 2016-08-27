@@ -3,6 +3,7 @@
 #pragma once
 
 #include "GameFramework/PlayerController.h"
+#include "HGCharacter.h"
 #include "HGPlayerController.generated.h"
 
 /**
@@ -14,14 +15,15 @@ class HARDLYGLADIATORS_API AHGPlayerController : public APlayerController
 	GENERATED_BODY()
 	
 public:
+    AHGCharacter *Character;
+
+    virtual void BeginPlay() override;
     virtual void SetupInputComponent() override;
 
-    UFUNCTION(BlueprintCallable, Category="Movement Input")
     void MoveForward(float AxisValue);
-    UFUNCTION(BlueprintCallable, Category="Movement Input")
     void MoveRight(float AxisValue);
-    UFUNCTION(BlueprintCallable, Category="Movement Input")
     void LookUp(float AxisValue);
-    UFUNCTION(BlueprintCallable, Category="Movement Input")
     void LookRight(float AxisValue);
+    void ActionRightHand();
+    void ActionLeftHand();
 };

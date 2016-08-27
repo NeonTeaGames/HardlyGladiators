@@ -17,5 +17,5 @@ public:
     virtual void Tick(float DeltaSeconds) override;
 
     UFUNCTION(BlueprintImplementableEvent, Category="Character")
-    void OnAction();
+    void OnAction(bool LeftHandedAction);
 };
