@@ -4,6 +4,7 @@
 *.pri
 *.workspace
 *.pro
+*.blend1
 CMakeLists.txt
 
 # Created by https://www.gitignore.io/api/kdevelop4,qt,unrealengine,cmake,visualstudiocode
