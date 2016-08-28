@@ -1,4 +1,4 @@
-// Copyright (C) 2016  Jens Pitkanen & Aleksi Talarmo
+﻿// Copyright (C) 2016  Jens Pitkanen & Aleksi Talarmo
 
 #pragma once
 
@@ -14,6 +14,6 @@ public:
 	virtual void BeginPlay() override;
 	virtual void Tick( float DeltaSeconds ) override;
 
-	
-	
+    UFUNCTION(BlueprintCallable, Category="Items")
+    float CalculateWeight(UStaticMeshComponent *WeightyMesh, float Hollowness);
 };
